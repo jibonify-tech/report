@@ -1,0 +1,6 @@
+{
+  "name": "Jibonify Daily",
+  "description": "Personal Finance + Daily Hisab + Money Management User Dashboard. Your Money. Your Day. Your Complete Hisab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

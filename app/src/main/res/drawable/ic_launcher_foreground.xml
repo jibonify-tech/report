@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center briefcase / digital shield backing -->
+    <path
+        android:pathData="M38,34 C38,30.68 40.68,28 44,28 L64,28 C67.32,28 70,30.68 70,34 L70,38 L76,38 C79.31,38 82,40.69 82,44 L82,72 C82,76.42 78.42,80 74,80 L34,80 C29.58,80 26,76.42 26,72 L26,44 C26,40.69 28.69,38 32,38 L38,38 Z"
+        android:fillAlpha="0.15"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M44,32 L64,32 C65.1,32 66,32.9 66,34 L66,38 L42,38 L42,34 C42,32.9 42.9,32 44,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="32"
+                android:endX="66"
+                android:endY="38"
+                android:type="linear">
+                <item android:color="#FFD54F" android:offset="0.0" />
+                <item android:color="#FFB300" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Premium Briefcase Body / Card -->
+    <path
+        android:pathData="M32,38 L76,38 C79.31,38 82,40.69 82,44 L82,72 C82,76.42 78.42,80 74,80 L34,80 C29.58,80 26,76.42 26,72 L26,44 C26,40.69 28.69,38 32,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="38"
+                android:endX="82"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#ECEFF1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Vibrant J Monogram + Growth Arrow inside -->
+    <path
+        android:pathData="M52,44 L60,44 L60,62 C60,66.4 56.4,70 52,70 C47.6,70 44,66.4 44,62 L48.5,62 C48.5,63.9 50.1,65.5 52,65.5 C53.9,65.5 55.5,63.9 55.5,62 L55.5,48.5 L52,48.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="44"
+                android:endX="60"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#1A237E" android:offset="0.0" />
+                <item android:color="#7B1FA2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Golden Earning Coin Emblem at top right of briefcase -->
+    <path
+        android:pathData="M66,48 m-7,0 a7,7 0,1 1,14 0 a7,7 0,1 1,-14 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="59"
+                android:startY="41"
+                android:endX="73"
+                android:endY="55"
+                android:type="linear">
+                <item android:color="#FFE082" android:offset="0.0" />
+                <item android:color="#FFA000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Coin Sparkle / Taka Symbol line -->
+    <path
+        android:pathData="M64.5,45 L67.5,45 M66,43.5 L66,52.5 M64,48.5 L68,48.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+    <!-- Rising growth arrow badge -->
+    <path
+        android:pathData="M72,32 L80,32 L80,40 M80,32 L70,42"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
